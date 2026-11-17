@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moonlit Seascape — 500m Open World (Three.js)</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Import Map for Three.js ES Modules -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="overlay">
+    <div class="panel">
+      <h1>Moonlit Seascape</h1>
+      <p class="subtitle">500m Interactive Coastal Open World</p>
+      <div class="controls-grid">
+        <div><span>W A S D / Arrows</span> Move</div>
+        <div><span>Mouse</span> Look Around</div>
+        <div><span>Shift</span> Sprint</div>
+        <div><span>Space</span> Jump</div>
+        <div><span>R</span> Reset to Overlook</div>
+        <div><span>ESC</span> Pause / Cursor</div>
+      </div>
+      <button id="start-btn">Enter World</button>
+    </div>
+  </div>
+
+  <div id="hud" class="hidden">
+    <div id="crosshair"></div>
+    <div id="stats">
+      <div id="coords">Pos: 0m, 0m | Elev: 0m</div>
+      <div id="bounds-msg"></div>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
