@@ -8,7 +8,7 @@ An interactive 3D Three.js open-world coastal landscape inspired by classic roma
 - **Procedural Nocturnal Sky & Clouds** with a glowing full moon, atmospheric halo, subtle stars, and drifting moonlit cumulus clouds.
 - **Distant Tall Ships** silhouetted on the horizon, bobbing gently on the waves.
 - **First-Person Keyboard & Mouse Walkthrough** with pointer-lock camera look, `WASD`/Arrow movement, sprinting (`Shift`), jumping (`Space`), head-bob, terrain height following, and world boundary clamping.
--  (![Alt Text](https://github.com/farhaduli/moonlight/blob/6f97896477b0a511273f0a562bfcf1605da331e2/moonlight.PNG))
+-  (![Alt Text]https://github.com/farhaduli/moonlight/blob/6f97896477b0a511273f0a562bfcf1605da331e2/moonlight.PNG)
 
 ## How to Run
 Because this project uses standard ES Modules (`<script type="module">`), serve the folder via any local HTTP server:
